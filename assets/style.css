@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-  margin-top: 60px;
+  margin: 60px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -135,20 +135,20 @@ body {
 }
 
 .banner {
-  margin-top: 60px;
+  margin-bottom: 173px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .banner .banner-title {
-  margin-top: 104px;
+  margin: 104px auto 69px;
   max-width: 795px;
   width: 100%;
   font-size: 64px;
   text-align: center;
 }
 .banner .banner-btn {
-  margin-top: 69px;
+  margin-bottom: 145px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -182,7 +182,6 @@ body {
   background-size: cover;
 }
 .banner .banner-quote {
-  margin-top: 145px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -204,7 +203,7 @@ body {
 }
 
 .description {
-  margin-top: 173px;
+  margin-bottom: 144px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -214,11 +213,11 @@ body {
   width: 100%;
 }
 .description .description-content .description-content__title {
+  margin-bottom: 48px;
   font-weight: bold;
   font-size: 64px;
 }
 .description .description-content .description-content__desc {
-  margin-top: 48px;
   line-height: 22px;
   color: #BDBDBD;
 }
@@ -279,17 +278,18 @@ body {
 }
 
 .projects {
-  margin-top: 144px;
+  margin-bottom: 90px;
 }
 .projects .projects-title {
+  margin-bottom: 76px;
   width: 100%;
   font-weight: bold;
   font-size: 64px;
   text-align: center;
 }
 .projects .projects-list {
+  margin-bottom: 60px;
   width: 100%;
-  margin-top: 76px;
   display: grid;
   grid-template-columns: repeat(2, 370px);
   grid-template-rows: repeat(auto-fill, minmax(307px, auto));
@@ -378,8 +378,8 @@ body {
 }
 .projects .projects-btn {
   max-width: 382px;
-  margin: 60px auto 0;
   padding: 18px 0;
+  margin: 0 auto;
   background-color: #4C5EB4;
   box-shadow: 0 25px 48px rgba(76, 94, 180, 0.25);
   border-radius: 4px;
@@ -408,7 +408,7 @@ body {
 }
 
 .contacts {
-  margin: 90px auto 0;
+  margin: 0 auto;
   padding: 56px;
   max-width: 568px;
   background-color: #FFFFFF;
@@ -417,6 +417,7 @@ body {
   border-radius: 11px;
 }
 .contacts .contacts-title {
+  margin-bottom: 54px;
   max-width: 427px;
   width: 100%;
   font-weight: bold;
@@ -425,7 +426,7 @@ body {
   color: #000000;
 }
 .contacts .contacts-list {
-  margin: 54px 0;
+  margin-bottom: 54px;
 }
 .contacts .contacts-list .contacts-list__item {
   font-weight: normal;
@@ -542,6 +543,7 @@ body {
 @media (max-width: 860px) {
   .projects .projects-list {
     grid-template-columns: minmax(auto, 370px);
+    gap: 30px;
   }
 }
 @media (max-width: 765px) {

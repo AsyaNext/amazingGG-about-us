@@ -2,7 +2,7 @@
 @import "base";
 
 .header {
-  margin-top: 60px;
+  margin: 60px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,19 +89,19 @@
 }
 
 .banner {
-  margin-top: 60px;
+  margin-bottom: 173px;
   display: flex;
   flex-direction: column;
   align-items: center;
   .banner-title {
-    margin-top: 104px;
+    margin: 104px auto 69px;
     max-width: 795px;
     width: 100%;
     font-size: 64px;
     text-align: center;
   }
   .banner-btn {
-    margin-top: 69px;
+    margin-bottom: 145px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -127,7 +127,6 @@
     }
   }
   .banner-quote {
-    margin-top: 145px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -150,7 +149,7 @@
 }
 
 .description {
-  margin-top: 173px;
+  margin-bottom: 144px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -160,12 +159,12 @@
     width: 100%;
 
     .description-content__title {
+      margin-bottom: 48px;
       font-weight: bold;
       font-size: 64px;
     }
 
     .description-content__desc {
-      margin-top: 48px;
       line-height: 22px;
       color: #BDBDBD;
 
@@ -226,16 +225,17 @@
 }
 
 .projects {
-  margin-top: 144px;
+  margin-bottom: 90px;
   .projects-title {
+    margin-bottom: 76px;
     width: 100%;
     font-weight: bold;
     font-size: 64px;
     text-align: center;
   }
   .projects-list {
+    margin-bottom: 60px;
     width: 100%;
-    margin-top: 76px;
     display: grid;
     grid-template-columns: repeat(2, 370px);
     grid-template-rows: repeat(auto-fill, minmax(307px, auto));
@@ -328,8 +328,8 @@
   }
   .projects-btn {
     max-width: 382px;
-    margin: 60px auto 0;
     padding: 18px 0;
+    margin: 0 auto;
     background-color: #4C5EB4;
     box-shadow: 0 25px 48px rgba(76, 94, 180, 0.25);
     border-radius: 4px;
@@ -351,7 +351,7 @@
 }
 
 .contacts {
-  margin: 90px auto 0;
+  margin: 0 auto;
   padding: 56px;
   max-width: 568px;
   background-color: #FFFFFF;
@@ -359,6 +359,7 @@
   background-size: cover;
   border-radius: 11px;
   .contacts-title {
+    margin-bottom: 54px;
     max-width: 427px;
     width: 100%;
     font-weight: bold;
@@ -367,7 +368,7 @@
     color: #000000;
   }
   .contacts-list {
-    margin: 54px 0;
+    margin-bottom: 54px;
     .contacts-list__item {
       font-weight: normal;
       font-size: 24px;
@@ -494,6 +495,7 @@
   .projects {
     .projects-list {
       grid-template-columns: minmax(auto, 370px);
+      gap: 30px;
     }
   }
 }
