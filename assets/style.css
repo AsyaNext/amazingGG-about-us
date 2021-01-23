@@ -497,7 +497,7 @@ body {
   justify-content: space-between;
 }
 .footer .footer-group .footer-group__links .footer-group__links-item {
-  background-size: cover;
+  background-size: contain;
   height: 15px;
   cursor: pointer;
 }

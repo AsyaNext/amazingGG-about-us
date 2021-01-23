@@ -439,7 +439,7 @@
       display: flex;
       justify-content: space-between;
       .footer-group__links-item {
-        background-size: cover;
+        background-size: contain;
         height: 15px;
         cursor: pointer;
         &:hover {
